@@ -33,16 +33,6 @@
     /* float: left; */
 }
 
-
-/* #nav2 input {
-    height: 20px;
-    width: 250px;
-    display: flex;
-    justify-content: center;
-    margin-left: 250px;
-    float: left;
-} */
-
 #nav2 input {
     height: 20px;
     width: 250px;
@@ -52,19 +42,6 @@
     float: left;
 }
 
-@media screen and (max-width: 1300px) and (min-width: 0px),
-(min-width: 5000px) {
-    #nav2 input {
-        height: 20px;
-        width: 250px;
-        display: flex;
-        justify-content: center;
-        margin-left: 250px;
-        float: left;
-        display: none;
-    }
-}
-
 #search-icon {
     background-color: #cac3c3;
     height: 26px;
@@ -72,13 +49,6 @@
     float: right;
     cursor: pointer;
     /* display: none; */
-}
-
-@media screen and (max-width: 1300px) and (min-width: 0px),
-(min-width: 5000px) {
-    #search-icon {
-        margin-left: 25px;
-    }
 }
 
 .bi-search {
@@ -107,37 +77,10 @@
     margin-left: auto;
     margin-right: auto;
     width: 6em;
-    position: relative;
 }
 
 .room img {
     padding: 0 40px 20px;
-}
-
-@media screen and (max-width: 600px) {
-    #rooms {
-        flex: 100%;
-        max-width: 100%;
-    }
-}
-
-@media screen and (max-width: 1300px) and (min-width: 0px),
-(min-width: 5000px) {
-    /* #rooms img {
-        max-height: 100%;
-        min-width: 100%;
-        object-fit: cover;
-        vertical-align: bottom;
-    } */
-    .rooms-1,
-    #rooms {
-        float: left;
-    }
-}
-
-.rooms-1,
-#rooms {
-    float: left;
 }
 
 
@@ -146,13 +89,6 @@
     transform: scale(1.09);
     transition: all 0.9s;
 } */
-
-@media screen and (max-width: 1300px) and (min-width: 0px),
-(min-width: 5000px) {
-    #rooms img:hover {
-        display: block;
-    }
-}
 
 
 /* .rooms-1,
