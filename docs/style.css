@@ -1,0 +1,294 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: #f0e4e4;
+}
+
+#nav-bar {
+    display: block;
+    width: 100%;
+    height: 54px;
+    background-color: #f93700;
+    padding-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+
+/* .nav {
+    display: flex;
+    float: left;
+    list-style-type: none;
+} */
+
+#nav {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: rgb(236, 135, 53);
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#nav3 {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    list-style-type: none;
+    /* float: left; */
+}
+
+
+/* #nav2 input {
+    height: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    float: left;
+} */
+
+
+/* #nav2 input {
+    height: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    float: left;
+} */
+
+
+/* @media screen and (max-width: 600px) and (min-width: 1200px),
+(min-width: 600px) { */
+
+
+/* #nav2 input {
+    height: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    float: left;
+    display: none;
+} */
+
+
+/* } */
+
+#search-icon {
+    background-color: #cac3c3;
+    height: 26px;
+    width: 50px;
+    float: right;
+    cursor: pointer;
+    /* display: none; */
+}
+
+
+/* @media screen and (max-width: 1800px) and (min-width: 1200px),
+(min-width: 1500px) {
+    
+} */
+
+.bi-search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.body2 {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    display: flex;
+}
+
+#rooms {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px 20px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    float: left;
+}
+
+.room img {
+    padding: 0 40px 20px;
+}
+
+@media screen and (max-width: 600px) {
+    #rooms {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.recklam {
+    padding: 0 40px 35px;
+}
+
+.collection {
+    color: #f93700;
+}
+
+.btn {
+    background-color: #f93700;
+    color: white;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.recklam {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    /* float: right;
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    padding: 0 40px 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#offer {
+    background-color: #cac3c3;
+    /* padding: 0 40px 35px; */
+    width: 80%;
+    /* height: 200px; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.offer2 {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+}
+
+.offer3 {
+    display: flex;
+    background-color: #f0e4e4;
+    border-radius: 100%;
+    height: 90px;
+    width: 90px;
+}
+
+.icon-text {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#icon-info1 {
+    margin-left: 20px;
+}
+
+#icon-info3 {
+    margin-right: 25px;
+}
+
+#kk p {
+    display: flex;
+    float: left;
+    margin-left: 40px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+
+#kk2 p {
+    display: flex;
+    float: right;
+    margin-left: 15px;
+    margin-right: 40px;
+    justify-content: flex-end;
+    padding-top: 25px;
+    cursor: pointer;
+}
+
+p button {
+    color: gray;
+    cursor: pointer;
+}
+
+p {
+    color: gray;
+}
+
+.call-btn {
+    background-color: #cac3c3;
+    width: 65px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.zzz:hover img {
+    margin-top: -30px;
+}
+
+.zzz:hover {
+    content: '\Living room';
+}
+
+.zzz::before {
+    content: '\Living room';
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 0.6em;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+}
