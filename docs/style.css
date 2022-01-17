@@ -2,10 +2,6 @@
     box-sizing: border-box;
 } */
 
-body {
-    background-color: #f0e4e4;
-}
-
 #nav-bar {
     display: block;
     width: 100%;
@@ -20,35 +16,8 @@ body {
     right: 0px;
 }
 
-
-/* .nav {
-    display: flex;
-    float: left;
-    list-style-type: none;
-} */
-
 #nav {
     float: left;
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-li a:hover {
-    background-color: rgb(236, 135, 53);
 }
 
 #nav {
@@ -279,6 +248,7 @@ li a:hover {
     margin-left: 40px;
     padding-top: 25px;
     cursor: pointer;
+    margin-right: 0px;
 }
 
 #kk2 p {
@@ -289,15 +259,6 @@ li a:hover {
     justify-content: flex-end;
     padding-top: 25px;
     cursor: pointer;
-}
-
-p button {
-    color: gray;
-    cursor: pointer;
-}
-
-p {
-    color: gray;
 }
 
 .call-btn {
