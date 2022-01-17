@@ -83,7 +83,7 @@ li a:hover {
     float: left;
 }
 
-@media screen and (max-width: 1300px) and (min-width: 1200px),
+@media screen and (max-width: 1300px) and (min-width: 0px),
 (min-width: 5000px) {
     #nav2 input {
         height: 20px;
@@ -105,11 +105,12 @@ li a:hover {
     /* display: none; */
 }
 
-
-/* @media screen and (max-width: 1800px) and (min-width: 1200px),
-(min-width: 1500px) {
-    
-} */
+@media screen and (max-width: 1300px) and (min-width: 0px),
+(min-width: 5000px) {
+    #search-icon {
+        margin-left: 25px;
+    }
+}
 
 .bi-search {
     display: block;
@@ -148,6 +149,13 @@ li a:hover {
     #rooms {
         flex: 100%;
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 0px),
+(min-width: 5000px) {
+    .item img {
+        display: none;
     }
 }
 
