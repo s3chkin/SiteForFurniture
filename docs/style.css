@@ -74,15 +74,14 @@ li a:hover {
     float: left;
 } */
 
-
-/* #nav2 input {
+#nav2 input {
     height: 20px;
     width: 250px;
     display: flex;
     justify-content: center;
     margin-left: 250px;
     float: left;
-} */
+}
 
 
 /* @media screen and (max-width: 600px) and (min-width: 1200px),
