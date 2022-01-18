@@ -39,9 +39,111 @@
     }
 }
 
+@media screen and (max-width:1430px) and (min-width: 0px),
+(min-width: 5000px) {
+    #rooms {
+        display: none;
+    }
+    #rooms2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 6em;
+    }
+    #zzz {
+        width: 450px;
+    }
+    .overlay {
+        text-align: center;
+        padding-bottom: 20px;
+        margin-left: 200px;
+    }
+    div.item {
+        display: none;
+    }
+    .recklam {
+        display: none;
+    }
+    .recklam2 {
+        display: block;
+        text-align: center;
+    }
+    .item2 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 6em;
+    }
+    #item2-img {
+        width: 450px;
+    }
+}
+
 @media screen and (max-width: 1300px) and (min-width: 0px),
 (min-width: 5000px) {
-    #rooms img:hover {
+    div#offer {
+        display: none;
+    }
+    #kk p,
+    #kk2 p {
+        display: none;
+    }
+    #nav {
+        display: none;
+    }
+    #responsive-nav {
         display: block;
+        float: left;
+        font-size: 25px;
+    }
+    #responsive-nav2 {
+        padding: 15px;
+        cursor: pointer;
+    }
+    .bi-list {
+        /* padding: 25px; */
+        background-color: #cac3c3;
+    }
+}
+
+@media screen and (max-width: 1430px) and (min-width: 1267px),
+(min-width: 5000px) {
+    #rooms2 {
+        margin-left: 500px;
+    }
+}
+
+@media screen and (max-width: 1410px) and (min-width: 1267px),
+(min-width: 5000px) {
+    #rooms2 {
+        margin-left: 450px;
+    }
+}
+
+@media screen and (max-width: 1315px) and (min-width: 1300px),
+(min-width: 5000px) {
+    #rooms2 {
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 0px),
+(min-width: 5000px) {
+    #rooms2 {
+        margin-left: 300px;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 0px),
+(min-width: 5000px) {
+    #rooms2 {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 950px) and (min-width: 0px),
+(min-width: 5000px) {
+    #rooms2 {
+        margin-left: 100px;
     }
 }

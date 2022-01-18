@@ -16,6 +16,10 @@
     right: 0px;
 }
 
+#responsive-nav {
+    display: none;
+}
+
 #nav {
     float: left;
 }
@@ -222,4 +226,30 @@
     text-align: center;
     color: gray;
     padding-top: 5px;
+}
+
+#rooms2 {
+    display: none;
+}
+
+.recklam2 {
+    display: none;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 6em; */
+}
+
+.item2 img {
+    padding-bottom: 25px;
+    display: none;
+}
+
+.responsive-rcklm h1 p {
+    display: block;
+    text-align: center;
+}
+
+.collection {
+    text-align: center;
 }
