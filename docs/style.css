@@ -206,10 +206,6 @@
     margin-top: -30px;
 }
 
-.zzz:hover {
-    content: '\Living room';
-}
-
 .zzz::before {
     content: '\Living room';
     letter-spacing: 0.2em;
